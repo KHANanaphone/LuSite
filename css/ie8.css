@@ -1,0 +1,3 @@
+#content .pricing-table1 h3 sub,#content .pricing-table2 h3 sub { font-size: 15px;  padding-top: 5px; }
+#content .pricing-table1 h3.pricing-table1-popular sub,p.table-price-normal sub, p.table-price-popular sub,#content .pricing-table2 h3.pricing-table2-popular sub { font-size: 16px;  }
+#content div.testimonials-text h5 sup,#content div.quote-testimonials h5 sup,#content .box-testimonials-client h5 sup { font-size:15px;}

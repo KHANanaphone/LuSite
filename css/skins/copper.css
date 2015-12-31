@@ -1,0 +1,77 @@
+/* ====== SKIN TEXT COLOR ====== */
+
+.skin-color { color:#e2a17b;}
+
+/* ====== TOP MENU ACTIVE BACKGROUND ====== */
+
+#top-menu ul li.active a, #top-menu ul li.active a:hover{
+	background:url(../../images/skins/copper/top-menu-active.jpg) no-repeat center top;	
+	color:#5c2200;	}
+	
+/* ====== SLIDER ====== */
+
+.slider-image-overlay1 { background:url(../../images/skins/copper/slider-image-overlay1.png) no-repeat 0 0; width:586px; }	
+#header-slider .slider-list ul li {  background:url(../../images/skins/copper/skin-bullet1.png) no-repeat 0 8px; }
+	
+/* ====== FOOTER READ MORE ARROW ====== */
+	
+#footer a.footer-read-more { 
+	background:url(../../images/skins/copper/footer-arrow1.png) no-repeat right 4px;	
+	color:#e2a17b;}
+
+/* ====== FOOTER CHECKMARK LISTING ====== */
+	
+#footer .list-checkmark li { background:url(../../images/skins/copper/footer-checkmark1.png) no-repeat 0 0;}
+
+/* ====== FOOTER MENU ACTIVE LINK BACKGROUND ====== */
+
+#small-footer  ul li.active a { background:url(../../images/skins/copper/footer-menu-left.png) no-repeat 0 0;}
+
+#small-footer  ul li.active a  span{ 
+	background:url(../../images/skins/copper/footer-menu-right.png) no-repeat right 0;	
+	color:#2e0023;}
+
+/* ====== FOOTER TESTIMONIALS QUOTE ====== */
+	
+#footer p.footer-testimonials-text { background:url(../../images/skins/copper/footer-testimonials-quote.png) no-repeat 15px 25px;}
+
+
+/* ====== SKIN BUTTON 1 AND 2 ====== */
+
+a.skin-button1, button.skin-button1,a.skin-button2, button.skin-button2{ 	
+	height:32px;
+	display:inline-block;
+	padding:0 0 0 15px;
+	width:auto;
+	text-decoration:none;
+	cursor:pointer;
+	border:none;
+	outline:none;}
+
+a.skin-button1 span, button.skin-button1 span,a.skin-button2 span, button.skin-button2 span{ 	
+	height:32px;
+	display:inline-block;
+	padding:0 15px 0 0;
+	margin:0;
+	line-height:32px;
+	position: relative; 
+	font-size:13px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
+	
+/* SKIN BUTTON 1 */
+
+a.skin-button1, button.skin-button1 { background:url(../../images/skins/copper/skin-button1-on-left.png) no-repeat left 0;}
+a.skin-button1 span, button.skin-button1 span{ background:url(../../images/skins/copper/skin-button1-on-right.png) no-repeat right 0; color:#000; text-shadow: 0 1px 0 rgba(255,255,255,0.3);}
+a:hover.skin-button1, button.skin-button1:hover{ background:url(../../images/skins/copper/skin-button1-hover-left.png) no-repeat 0 0;}
+a:hover.skin-button1 span, button.skin-button1:hover span{ background:url(../../images/skins/copper/skin-button1-hover-right.png) no-repeat right 0; color:#fff; text-shadow: 0 1px 0 #301200; } 
+	
+/* SKIN BUTTON 2 */
+
+a.skin-button2, button.skin-button2 { background:url(../../images/skins/copper/skin-button2-on-left.png) no-repeat left 0;}	
+a.skin-button2 span, button.skin-button2 span{ background:url(../../images/skins/copper/skin-button2-on-right.png) no-repeat right 0;color:#fff;line-height:31px; font-size:15px; letter-spacing:0.5px; }
+a:hover.skin-button2, button.skin-button2:hover{ background:url(../../images/skins/copper/skin-button2-hover-left.png) no-repeat 0 0; }
+a:hover.skin-button2 span, button.skin-button2:hover span{ background:url(../../images/skins/copper/skin-button2-hover-right.png) no-repeat right 0;}
+
+/* PRICING TABLE SUB TEXT */
+
+h3.pricing-table1-normal sub,h3.pricing-table1-popular sub,h3.pricing-table2-normal sub,h3.pricing-table2-popular sub{color:#e2a17b;}

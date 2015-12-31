@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Adobe Systems Inc. - Site Unavailable</title>
+
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background-color:#EAEAEA;
+	background-image:url(images/silverswimmer.jpg);
+	background-repeat:no-repeat;
+	color:#333333;
+	margin-top:100px;
+	padding: 0;
+	text-align: center;
+}
+
+#container {
+	margin-top: 50px;
+	width: 37em;
+	background: #FFFFFF;
+	margin: 0 auto;
+	border: 1px solid #000000;
+	text-align: left;
+}
+
+h1 {
+	font-size:2.0em;
+	line-height:1.1;
+	margin: 0;
+	padding: 10px 0;
+	position:relative;
+}
+
+h1, h2 {
+	font-weight:normal;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+}
+
+#mainContent {
+	padding: 20px;
+	background: #FFFFFF;
+}
+
+.columns-2-aaB-B { width: 100%;  }
+
+.columns-2-aaB-B {
+ float:right;
+ margin-bottom:0.1em;
+}
+
+.columns-2-aaB-aa {
+	float:left;
+	clear:right;
+	margin-bottom:0.5em;
+	margin-left: 2%;
+}
+
+
+
+
+.clear-both {clear:both;}
+-->
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+  <div id="mainContent">
+      <h1>Site unavailable</h1>
+   			<div class="columns-2-aaB-B">
+            	<p>We're sorry, the service you requested is currently unavailable. In the meantime please explore the other areas of <A HREF="http://www.adobe.com/">Adobe.com</A>. </p>
+				<p>Thank you for your patience.</p>
+			</div>
+			<br class="clear-both" />
+
+	</div>
+</div>
+
+</body>
+</html>

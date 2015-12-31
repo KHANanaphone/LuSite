@@ -1,0 +1,62 @@
+/* home page white box image */
+.white-box-img  { padding-top:15px; }
+
+/* inner page title section */
+#title-section h1 sub { float:left; height:50px;}
+#search-input-box input { 	margin: -1px 0 0 0;  }
+
+/* breadcrumb  */
+#breadcrumb ul li.breadcrumb-home { text-indent:0px; font-size:1px; text-align:center; float:left;}
+
+/* pricing-tables */
+h3.pricing-table1-normal sub,h3.pricing-table1-popular sub,h3.pricing-table2-normal sub,h3.pricing-table2-popular sub{vertical-align:text-top;}
+
+/* sidebar */
+#content #sidebar .sidebar-contact-info ul { padding:0;}
+#sidebar .sidebar-advertise { padding:0 0 15px 0; }
+
+/* cycle slider */
+#nav span a { text-indent:0px; font-size:1px;	 color:#7e7e7e; }
+#nav a.activeSlide,ul#nav a:hover { color:#303030; }
+
+/* nivo-slider */
+.nivo-controlNav a {	text-indent:0px; font-size:1px;	 color:#7e7e7e; }
+.nivo-controlNav a:hover, .nivo-controlNav a.active  {color:#303030;}
+
+/* blog-post */
+.post-left-column { width:79px; margin-right:24px; float:left;}
+.post-date { padding-top:14px;}
+
+/* popup login */
+.member-login-bottom,.member-login-bottom a{ padding:20px 0 0 5px; }
+
+/* Quote Testimonials */
+#content .quote-testimonials { padding: 10px 20px 0 20px;}
+#content .quote-testimonials span { background:url(../images/backgrounds/quote-small.png) no-repeat 0px 0px; padding-left:40px; padding-top:10px; line-height:24px; }
+#nav2 span a { text-indent:0px; font-size:1px;	 color:#7e7e7e; }
+#nav2 a.activeSlide,ul#nav2 a:hover { color:#303030; }
+
+/* Portfolio Single Navigation */
+.pika-imgnav a.previous, .pika-imgnav a.next , .pika-imgnav a.play, .pika-imgnav a.pause {	margin-top: 134px; }
+
+.input-button1,.input-button2,.input-button3,.input-button4 { padding:0;}
+
+#content .portfolio ul{ width:1000px; }
+
+.box_skitter .info_slide_dots .image_number_select { background:url(../images/backgrounds/slider-navigation.png) no-repeat left -19px;}
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+

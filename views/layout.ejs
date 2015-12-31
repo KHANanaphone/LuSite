@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app='routingApp'>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Insert Name Here</title>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+
+<!-- CSS files -->
+<link rel="stylesheet" href="css/style.css" /> <!-- Default CSS File -->
+<link rel="stylesheet" href="css/typography.css" /> <!-- Columns, Listing, Tabs, Toogles etc. styles  -->
+<link rel="stylesheet" href="css/import-skin.css" /> <!-- Edit this CSS to change theme skin -->
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/google-font.css" />
+
+<!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 9]><link rel="stylesheet" href="css/ie9.css" type="text/css" media="screen" /><![endif]-->
+
+<!-- Java Scripts -->
+<script type="text/javascript" src="js/theme/jquery.js" ></script>
+<script type="text/javascript" src="js/theme/superfish.js"></script>
+<script type="text/javascript" src="js/theme/jquery.prettyPhoto.js"  ></script>
+<script type="text/javascript" src="js/theme/theme-settings.js"></script>
+<script type="text/javascript" src="js/theme/preloader.js"></script>
+<script type="text/javascript" src="js/theme/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="js/theme/flashobjects.js"></script>
+
+<script src="js/routing.js"></script>
+
+
+</head>
+
+<body ng-controller="routingController">
+
+<div id="inner-header-bg">
+	<div id="white-header-bg">
+
+        <div ng-include="'html/header.html'">
+        </div>
+
+        <div id="container">
+            <div id="content">
+                <div ng-view></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

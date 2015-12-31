@@ -1,0 +1,102 @@
+/*Google Font*/
+h1,h2,h3,h4,h5,h6,#title-section h1,#sidebar h2,#footer h2,#additional-footer h4,.popout-portfolio ul.columns li h2,
+#top-menu>ul>li>a,#top-menu>ul>li.active>a,
+a.slider-bullet,#content ul.tabs li,
+.button-size2,.button-size3,.button-size4,a:hover.button-size3,.skin-button2,a.button-white, button.button-white,
+.input-button1,.input-button2,.input-button3,.input-button4,a.skin-button1 span, button.skin-button1 span,a.button-size1 span, button.button-size1 span
+.footer-testimonials-client-info,
+.post-date,.about-author-title,.reply, .date-day,.date-month,.reply a,.post-share p.trigger a,.post-comments,.comment cite,
+.table-price-normal,.table-price-popular,.pricing-table3 th,
+.quote,blockquote.style1,.pullquote-left,.pullquote-right,
+p.trigger, p.acc_trigger,p.trigger2, p.acc_trigger2,.special-offer-text { 
+	font-family: bitter, georgia, arial; }	
+
+/*Top Menu*/
+#top-menu ul li a, #top-menu ul li.active a, #top-menu ul li.active a:hover { font-size:15px; }
+
+/*Headings*/
+h1 {font-size:30px;}
+h2 {font-size:22px;}
+h3 {font-size:19px;}
+h4 {font-size:17px;}
+#content h1,#content h2{ margin:0 0 20px 0; }
+#content h3,#content h4,#content h5,#content h6 { margin:0 0 20px 0; }
+#cycle-slider h2 { font-size:22px;}	
+#cycle-slider h3 { font-size:18px;}
+#content .welcome-text h1 { margin-bottom: 15px; }
+#content .white-box h2 { font-size: 17px; line-height: 22px;  }
+
+/*Page Title*/
+#title-section h1 { font-size:43px;	display: block; }
+#title-section h1 sub {	display: block; margin-top: 18px; }
+
+/*Additional Footer*/
+#additional-footer h4 {	font-size:22px; }
+
+/*Sidebar widget title*/
+#sidebar  h2 { font-size:16px; line-height:42px; margin-bottom: 0; }
+
+/*Footer*/
+#footer h2 { font-size:17px; padding-bottom:14px; margin-bottom:10px; margin-top:20px; }
+
+/*Blog post*/
+.post-date { padding-top:19px;}
+.date-day { font-size:22px; }
+.date-month { font-size:14px; margin-top:-24px; }
+.post-comments a{ font-size:19px; text-shadow: 0 1px 0 #000; }
+.post-share p.trigger a { line-height: 28px; }
+#content .post-content h2, #content .post-content h2 a { margin-bottom:15px; }
+.about-author p.about-author-title { font-size: 17px; }
+.comment-text cite { font-size: 15px; }
+
+#content .special-offer h5 { font-size: 24px; }
+
+/*Testimonials*/
+#content div.testimonials-text h5 { font-size: 17px; margin-bottom: 15px;  }
+#content div.testimonials-text h5 sup { font-size: 13px; }
+#content div.quote-testimonials h5 { font-size: 16px; }
+#content div.quote-testimonials h5 sup { font-size: 13px; }
+
+/* ===== Typography ========================== */
+
+/*Buttons*/
+a.skin-button1, button.skin-button1,a.skin-button2, button.skin-button2 { text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
+a.button-size1 span, button.button-size1 span { font-size: 13px; line-height: 28px; }
+a.skin-button2 span, button.skin-button2 span { letter-spacing: 0; }
+
+/*Pricing Tables*/
+#content .pricing-table1 h3.pricing-table1-normal { font-size: 22px; text-shadow: 0 1px 0 rgba(0,0,0,0.2); padding-top: 57px;  }
+#content .pricing-table1 h3 sub { display: block; font-size: 13px; margin-top: 8px;  }
+#content .pricing-table1 h3.pricing-table1-popular { font-size: 27px; text-shadow: 0 1px 0 rgba(0,0,0,0.2); padding-top: 43px; height:86px; }
+#content .pricing-table1 h3.pricing-table1-popular sub { margin-top: 10px; font-size: 14px;  }
+p.table-price-normal { font-size: 40px; padding:30px 0 10px 0; }
+p.table-price-normal sub, p.table-price-popular sub { font-size: 14px; }
+p.table-price-popular { font-size: 50px; padding:35px 0 15px 0; }
+
+#content .pricing-table2 h3.pricing-table2-normal { font-size: 22px; text-shadow: 0 1px 0 rgba(0,0,0,0.2); padding-top: 57px;  }
+#content .pricing-table2 h3 sub { display: block; font-size: 13px; margin-top: 8px;  }
+#content .pricing-table2 h3.pricing-table2-popular { font-size: 27px; text-shadow: 0 1px 0 rgba(0,0,0,0.2); padding-top: 43px; height:86px; }
+#content .pricing-table2 h3.pricing-table2-popular sub { margin-top: 10px; font-size: 14px;  }
+
+/*Tabs*/
+html #content ul.tabs li.active, html #content ul.tabs li.active a:hover { font-weight: normal; }
+
+/*Toggle*/
+p.trigger2 a, p.acc_trigger2 a,p.trigger a, p.acc_trigger a { font-size: 14px; }
+.toggle_container2 .block2, .acc_container2 .block2{ padding-left: 0 }
+p.trigger2 a, p.acc_trigger2 a { text-indent: 25px; }
+p.trigger2, p.acc_trigger2,p.active2 a { background-position: 0 9px }
+
+/*Fancy Boxes*/
+#content .myfancy-box h3 { font-size:15px; text-shadow: 0 1px 0 rgba(0,0,0,0.2); }	
+
+/*Quotes*/
+.pullquote-left, .pullquote-right { font-style: normal; font-weight: normal; font-size: 14px; }
+blockquote.style1 p { font-size: 17px; }
+
+#content .portfolio h3 { font-size: 15px; line-height: 34px; }
+
+/*IE 10 Styles*/
+.ie10 #content .pricing-table1 h3 sub,.ie10 #content .pricing-table2 h3 sub { font-size: 15px; padding-top: 5px;   }
+.ie10 #content .pricing-table1 h3.pricing-table1-popular sub,.ie10 p.table-price-normal sub, .ie10 p.table-price-popular sub,.ie10 #content .pricing-table2 h3.pricing-table2-popular sub { font-size: 16px;  }
+.ie10 #content div.testimonials-text h5 sup,.ie10 #content div.quote-testimonials h5 sup,.ie10 #content .box-testimonials-client h5 sup { font-size:15px; }
