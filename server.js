@@ -6,7 +6,15 @@ app.set('view engine', 'ejs');
 
 // index page
 app.get('/', function(req, res) {
-    res.render('layout', {page: 'index.ejs'});
+    res.render('layout', {page: 'home'});
+});
+
+app.get('/portfolio', function(req, res) {
+    res.render('layout', {page: 'portfolio'});
+});
+
+app.get('/contact', function(req, res) {
+    res.render('layout', {page: 'contact'});
 });
 
 app.use(express.static(__dirname + '/assets'));

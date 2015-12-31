@@ -28,6 +28,8 @@
 <script type="text/javascript" src="js/theme/jquery.cycle.all.js"></script>
 <script type="text/javascript" src="js/theme/flashobjects.js"></script>
 
+<script type="text/javascript" src="js/custom.js"></script>
+
 </head>
 
 <body ng-controller="routingController">
@@ -35,10 +37,16 @@
 <div id="inner-header-bg">
 
     <%- include _header.ejs %>
-    <%- include('pages/' + page) %>
+    <%- include('pages/' + page + '.ejs') %>
     <%- include _footer.ejs %>
 
 </div>
+
+<script>
+
+    var PAGENAME = '<%= page %>';
+
+</script>
 
 </body>
 </html>
