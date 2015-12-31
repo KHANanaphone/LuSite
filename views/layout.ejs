@@ -28,26 +28,16 @@
 <script type="text/javascript" src="js/theme/jquery.cycle.all.js"></script>
 <script type="text/javascript" src="js/theme/flashobjects.js"></script>
 
-<script src="js/routing.js"></script>
-
-
 </head>
 
 <body ng-controller="routingController">
 
 <div id="inner-header-bg">
-	<div id="white-header-bg">
 
-        <div ng-include="'html/header.html'">
-        </div>
+    <%- include _header.ejs %>
+    <%- include('pages/' + page) %>
+    <%- include _footer.ejs %>
 
-        <div id="container">
-            <div id="content">
-                <div ng-view></div>
-            </div>
-        </div>
-
-    </div>
 </div>
 
 </body>
